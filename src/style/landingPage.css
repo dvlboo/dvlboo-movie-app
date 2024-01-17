@@ -1,0 +1,49 @@
+.myBackground {
+  height: 100vh;
+  background: url('../images/bgIntro.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.tagLine {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.trending {
+  height: auto;
+  background: url('../images/bgTrending.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.superhero {
+  height: auto;
+  background: url('../images/bgSuperhero.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.imageTrending {
+  height: 60%;
+  width: auto;
+}
+
+.cardTrending {
+  height: 95%;
+}
+
+.descTrending {
+  font-size: 15px;
+}
